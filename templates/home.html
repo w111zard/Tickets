@@ -1,0 +1,11 @@
+<!docktype html>
+<html>
+  <body>
+    <h1> Events </h1>
+    {% for event in events %}
+    <ul>
+      <li><a href="/event/{{event[0]}}"> {{event[1]}} </a></li>
+    </ul>
+    {% endfor %}
+  </body>
+</html>

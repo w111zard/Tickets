@@ -1,0 +1,18 @@
+<!docktype html>
+<body>
+  <h1> Information about the event </h1>
+
+  <ul>
+    <li> ID: {{event_info[0]}} </li>
+    <li> Name: {{event_info[1]}} </li>
+    <li> Date: {{event_info[2]}} </li>
+    <li> Time: {{event_info[3]}} </li>
+  </ul>
+
+  <h3> Options </h3>
+
+  <ul>
+    <li><a href="/event/{{event_info[0]}}/tickets_list">Show tickets</li>
+    <li><a href="/return_ticket">Return the ticket</li>
+  </ul>
+</body>

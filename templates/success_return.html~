@@ -1,0 +1,4 @@
+<!docktype html>
+<body>
+  <h1> The ticket with ID = {{ticket_id}} has returned successfully.</h1>
+</body>

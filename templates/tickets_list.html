@@ -1,0 +1,27 @@
+<!docktype html>
+<body>
+  <h1> Tickets </h1>
+
+  <table border = 1>
+    <thead>
+      <td>ID</td>
+      <td>Event</td>
+      <td>Type</td>
+      <td>Price</td>
+      <td>Aviable</td>
+    </thead>
+
+    {% for ticket in tickets %}
+    <tr>
+      <td>{{ticket[0]}}</td>
+      <td>{{ticket[1]}}</td>
+      <td>{{ticket[2]}}</td>
+      <td>{{ticket[3]}}</td>
+      <td>{{ticket[4]}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  
+  <h2><a href="/"> Go back </a></h2>
+</body>
+</html>

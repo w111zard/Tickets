@@ -1,0 +1,10 @@
+<!docktype html>
+<html>
+  <body>
+    {% for event in events %}
+    <ul>
+      <li> event </li>
+      <li> event </li>
+    </ul>
+  </body>
+</html>
